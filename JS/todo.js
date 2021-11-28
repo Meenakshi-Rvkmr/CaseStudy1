@@ -25,6 +25,7 @@ function ajax() {
         };
 
         let row = table.insertRow();
+        row.disabled = item.completed
         let cell1 = row.insertCell();
         cell1.appendChild(checkbox);
         let cell2 = row.insertCell();

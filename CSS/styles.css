@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    background: url("../Images/abstract-background-copyspace-brainstorm.jpg");
+    background-size: cover;
 }
 .container-fluid {
     height: 100%;

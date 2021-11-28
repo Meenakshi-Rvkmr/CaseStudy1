@@ -1,0 +1,22 @@
+
+  html, body {
+    height: 100%;
+    background-color: #3dbbe1;
+    background-size: cover;
+}
+
+input[type=checkbox]:checked:enabled + td {
+    background: green;
+  }
+
+  input[type=checkbox]:disabled+label {
+    color: #ccc;
+  }
+
+  input[type=checkbox] {
+      padding-left: 10%;
+  }
+
+.btn-primary {
+    background-color: #3dbbe1;
+}
